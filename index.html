@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(165, 42, 42, 0.2);
+      }
+      nav {
+        background: url("https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 100%;
+        box-shadow: 0px 0px 8px black;
+        margin-bottom: 40px;
+      }
+      nav > input {
+        position: sticky;
+        top: 60px;
+        left: 15%;
+        width: 70%;
+        height: 60px;
+        border-radius:10px;
+        background-color: rgb(99, 18, 18,1);
+        color: white;
+        border: none;
+        padding: 10px;
+      }
+      input:focus{
+        outline: none;
+        background-color: rgb(99, 18, 18,0.9);
+      }
+      .coffee_menu {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .coffee_menu > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: rgba(0, 0, 0, 0.8);
+      }
+      .img {
+        height: 150px;
+        width: 150px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        box-shadow: 0px 8px 8px black;
+      }
+      img:hover {
+        box-shadow: 0px 18px 18px black;
+        height: 152px;
+        width: 152px;
+      }
+      .coffee_menu > div > h4 {
+        margin-block: 15px;
+      }
+      .des {
+        width: 90%;
+        margin: auto;
+        margin-block: 50px;
+        background-color: rgb(165, 42, 42, 0.3);
+        padding: 30px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 8px brown;
+      }
+      .des>p,.des>ol{
+        line-height: 20px;
+        color: brown;
+      }
+      ol>li{
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <input type="text" value="Search"/>
+    </nav>
+
+    <main>
+      <section class="coffee_menu">
+        <div>
+          <div class="img">
+            <img
+              src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTiCxXcyNxBKgWT2_t-TQQ_DTFFEnfQz9p1OT5WTg4vaJ4eUE_OPh6Vvd4qxWJop6-w"
+              alt="Cappuccino"
+            />
+          </div>
+          <h4>Cappuccino</h4>
+        </div>
+        <div>
+          <div class="img">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg"
+              alt="Espresso"
+            />
+          </div>
+          <h4>Espresso</h4>
+        </div>
+        <div>
+          <div class="img">
+            <img
+              src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQJppQpvbjiWse0QeBv0e2EstBXGOP1K80eAv9S0qPks2CDkhhc"
+              alt="Latte"
+            />
+          </div>
+          <h4>Latte</h4>
+        </div>
+        <div>
+          <div class="img">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Flat_white_coffee_with_pretty_feather_pattern.jpg"
+              alt="Flat White"
+            />
+          </div>
+          <h4>Flat White</h4>
+        </div>
+      </section>
+      <section class="des">
+        <h1 style="color: brown;">Coffee-House</h1>
+        <p>
+          Welcome to Coffee House , your cozy corner for exceptional coffee experiences. We believe that every cup of coffee has the power to bring people together, whether it's for a casual conversation, a moment of relaxation, or a spark of inspiration. Our coffee house is designed to be a warm and inviting space where the aroma of freshly brewed coffee greets you the moment you step inside. We pride ourselves on offering an array of coffee options, crafted from the finest beans sourced from sustainable farms worldwide. Each cup is brewed with care, ensuring every sip is a celebration of flavor and quality.
+        </p>
+        <br>
+        <p>
+          Our menu is a blend of classic favorites and unique creations, tailored to suit every palate. Whether you're a fan of a robust espresso or prefer a velvety latte, we have something for every coffee lover. Our baristas are passionate about their craft, continuously refining their skills to create the perfect brew. Pair your coffee with one of our fresh pastries or snacks, and you'll have the perfect start to your day or a comforting break during your busy schedule. For those on the go, we also offer convenient takeout and delivery options so you can enjoy our coffee wherever you are.
+        </p>
+         <br>
+        <p>
+          At Coffee House, we're more than just a coffee shop — we're a community. We value our customers and strive to create an atmosphere where everyone feels welcome. Whether you're meeting friends, working remotely, or simply seeking a peaceful retreat, our space is designed to offer comfort and connection. Explore our website to learn more about our story, check out our menu, and discover the latest happenings at our coffee house. Join us for a cup, and let us be a part of your daily routine.
+
+
+
+
+
+
+
+
+          </p>
+      </section>
+      <section class="des">
+        <h1 style="color: brown;">Coffee list</h1>
+        <ol>
+            <li>Cappuccino</li>
+            <li>Espresso</li>
+            <li>Latte</li>
+            <li>Flat white</li>
+            <li>Americano</li>
+            <li>Cortado</li>
+        </ol>
+           <br>
+          <p>
+
+
+
+
+
+
+
+
+            At Coffee House, we believe that coffee is more than just a beverage — it's an experience that brings people together and enriches daily life. From our thoughtfully curated menu to our warm, welcoming atmosphere, every detail is crafted with care to provide you with the perfect coffee experience. We invite you to visit us, whether in person or through our online platform, and discover your new favorite brew. Thank you for being part of our community; we look forward to sharing many more memorable moments with you, one cup at a time.
+            </p>
+      </section>
+    </main>
+  </body>
+</html>
